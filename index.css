@@ -69,7 +69,23 @@ ul{
 .x-men li{
     margin: 0 20px;
 }
-@media(min-width: 500px){
+@media (max-width: 375px) {
+    .countdown h2 {
+        font-size: 20px; 
+    }
+    
+    .image-1-icon img,
+    .hil img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .x-men {
+        bottom: 10px; 
+    }
+}
+
+@media(min-width: 800px){
     .countdown{
         max-width: auto;
     }
